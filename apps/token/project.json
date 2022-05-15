@@ -29,7 +29,8 @@
     "serve": {
       "executor": "@nrwl/node:node",
       "options": {
-        "buildTarget": "token:build"
+        "buildTarget": "token:build",
+        "port":9232
       }
     },
     "lint": {
